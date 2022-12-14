@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noesis 2022</title>
+    <link rel="stylesheet" href="/public/styles.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero" id="hero">
+        <div class="noesis">
+            <span class="letters a">N</span>
+            <span class="letters b">O</span>
+            <span class="letters c">E</span>
+            <span class="letters d">S</span>
+            <span class="letters e">I</span>
+            <span class="letters f">S</span>
+        </div>
+        <div class="cube-container">
+            <div class="cube">
+                <div>
+                    <div class="top">
+                        <!-- <img src="logo.png" alt="" class="logo"> -->
+                        <img src="/images/tex.jpg" alt="" style="width: 100%; height: 100%;transform: rotate(90deg);">
+                    </div>
+                    <span style="--i:0;">                                    
+                    <h2 class="letters2">20</h2>             
+                    </span>
+
+                    <span style="--i:1;">
+                    <h2 class="letters2">23</h2></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:3;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h1>Events</h1>
+    </div>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+        const element = document.getElementById("navbar");
+
+        function scrollFunction() {
+
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+            }
+        }
+    </script>
+</body>
+
+</html>
