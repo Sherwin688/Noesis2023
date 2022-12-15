@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Noesis 2022</title>
     <link rel="stylesheet" href="/public/styles.css">
 
@@ -16,8 +16,8 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Events</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Schedule</a></li>
+
             </ul>
         </div>
     </nav>
@@ -55,7 +55,7 @@
                 <img src="images/logo.png" class="logo" alt="">
             </div>
             <div class="right">
-                <h1><span class="lightup">Noesis 2022</span> Department Of Computer Applications</h1>
+                <h1><span class="lightup">Noesis 2023</span> Department Of Computer Applications</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus non ut perspiciatis illum molestiae voluptate assumenda voluptas cum, itaque quis fugiat, porro pariatur iste! Voluptatum omnis qui repellat? Similique, deserunt.</p>
 
                 <div class="btn-container">
@@ -66,7 +66,7 @@
     </div>
     <div class="section" id="events">
         <div class="heading">
-            <h1>Events</h1>
+            <h1 style="margin: 10px 0!important;">Events</h1>
         </div>
         <div class="cards">
             <a href="web_weavers.html" class="card-link">
@@ -121,142 +121,163 @@
 
         <div class="heading">
             <h1>Programme Schedule </h1>
-            <h1>Day One : 27th January 2023 (Friday)</h1>
+            <h2 class="sub-heading">Day One : 27th January 2023 (Friday)</h2>
         </div>
-        <div class="table-container">
-            <table class="table" border="1">
-                <tr>
-                    <th>Time</th>
-                    <th>Event</th>
-                    <th>Venue</th>
-                </tr>
-                <tr>
-                    <td>9.00 - 9.30</td>
-                    <td>Registration</td>
-                    <td>Seminar Hall / Parish Hall</td>
-                </tr>
-                <tr>
-                    <td>9.30 - 10.30</td>
-                    <td>Inaugural Ceremony</td>
-                    <td>Seminar Hall / Parish Hall</td>
-                </tr>
-                <tr>
-                    <td rowspan="5"> 11.00 - 01.00</td>
+        <div class="table-container" style="margin-bottom: 140px;">
+            <div class="day-container">
+                <img src="images/day1.png" class="days" alt="">
+                <div class="schedule-container">
+                    <div class="programme">
+                        <div class="time"><b>Time</b></div>
+                        <div class="event-name"><b>Event Name</b></div>
 
-                </tr>
-                <tr>
-                    <td>Web Weavers : .html </td>
-                    <td>Lab II</td>
-                </tr>
-                <tr>
-                    <td>Code Crunchers : int main ( ) </td>
-                    <td>Lab I</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">9.00 AM - 9.30 AM</div>
+                        <div class="event-name">Registration</div>
 
-                </tr>
-                <tr>
-                    <td>Media Masters : Sync</td>
-                    <td>Lab III</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">9.30 AM - 10.30 AM</div>
+                        <div class="event-name">Inaugural Ceremony</div>
 
-                </tr>
-                <tr>
-                    <td>Brainy Beings : .CyberWhiz</td>
-                    <td>Seminar Hall</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">10.00 AM - 11.00 AM</div>
+                        <div class="event-name">Web Weavers : .html <br>Code Crunchers : int main () <br>Media Masters : Sync <br> Brainy Beings : .CyberWhiz </div>
 
-                </tr>
-                <tr>
-                    <td>11.00 - 12.00</td>
-                    <td colspan="2" style="text-align: center;">Lunch Break</td>
-                </tr>
-                <tr>
-                    <td rowspan="5"> 02.00 - 04.00</td>
 
-                </tr>
-                <tr>
-                    <td>Web Weavers :. Shop-a-holic</td>
-                    <td>Lab II</td>
-                </tr>
-                <tr>
-                    <td>Code Crunchers : Syntax n Semantics </td>
-                    <td>Lab I</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">11.00 AM - 12.00 PM</div>
+                        <div class="event-name">Lunch Break</div>
 
-                </tr>
-                <tr>
-                    <td>Media Masters : Morphos</td>
-                    <td>Lab III</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">02.00 PM - 04.00 PM</div>
+                        <div class="event-name">
+                            WW :. Shop-a-holic <br>CC : Syntax n Semantics <br>MM : Morphos <br> BBs : Feel it Speak it</div>
 
-                </tr>
-                <tr>
-                    <td>Brainy Beings : Feel it Speak it</td>
-                    <td>Seminar Hall</td>
 
-                </tr>
+                    </div>
+                    <a href="/schedule.html" style="text-decoration: none; color: black;font-weight: 700;">
+                        <div class="programme">
 
-            </table>
+                            View Detailed Schedule
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
         </div>
         <div class="heading">
-            <h1>Programme Schedule </h1>
-            <h1>Day Two : 28th January 2023 (Saturday)</h1>
+
+            <h2 class="sub-heading" style="padding:10px;">Day Two : 28th January 2023 (Saturday)</h2>
         </div>
         <div class="table-container">
-            <table class="table" border="1">
-                <tr>
-                    <th>Time</th>
-                    <th>Event</th>
-                    <th>Venue</th>
-                </tr>
+            <div class="day-container">
+                <img src="images/day2.png" class="days" alt="">
+
+                <div class="schedule-container">
+
+                    <div class="programme">
+                        <div class="time"><b>Time</b></div>
+                        <div class="event-name"><b>Event Name</b></div>
+
+                    </div>
+
+                    <div class="programme">
+                        <div class="time">09.00 AM - 11.00 AM</div>
+                        <div class="event-name">WW : WebDev Tools <br>CC : Predicate <br>MM : CreaTIvITy <br> BB : Inn-Expo</div>
 
 
+                    </div>
+                    <div class="programme">
+                        <div class="time">11.00 AM - 12.00 PM</div>
+                        <div class="event-name">Lunch Break</div>
 
-                <tr>
-                    <td rowspan="5"> 09.00 - 11.00</td>
+                    </div>
+                    <div class="programme">
+                        <div class="time">12.00 PM - 01.00 PM</div>
+                        <div class="event-name">
+                            Valedictory Function</div>
 
-                </tr>
-                <tr>
-                    <td>Web Weavers : WebDev Tools</td>
-                    <td>Lab II</td>
-                </tr>
-                <tr>
-                    <td>Code Crunchers : Predicate</td>
-                    <td>Lab I</td>
 
-                </tr>
-                <tr>
-                    <td>Media Masters : CreaTIvITy</td>
-                    <td>Lab III</td>
+                    </div>
+                    <a href="/schedule.html" style="text-decoration: none; color: black;font-weight: 700;">
+                        <div class="programme">
 
-                </tr>
-                <tr>
-                    <td>Brainy Beings : Inn-Expo</td>
-                    <td>Seminar Hall</td>
+                            View Detailed Schedule
 
-                </tr>
-                <tr>
-                    <td>11.00 - 12.00</td>
-                    <td colspan="2" style="text-align: center;">Lunch Break</td>
-                </tr>
-                <tr>
-                    <td>12.00 - 01.00</td>
-                    <td>Valedictory Function</td>
-                    <td>Seminar Hall</td>
+                        </div>
+                    </a>
 
-                </tr>
-            </table>
+                </div>
+
+            </div>
+
         </div>
+
+
 
     </div>
     <div class="footer-container">
         <div class="footer">
             <div class="college-details">
-                <!-- <img src="images/college_logo.png" class="college_logo" alt=""><img src="images/rosary_logo_text.png" class="college_logo_text" alt=""> -->
+                <div class="img_logo">
+                    <img src="images/college_logo.png" class="college_logo" alt=""><img src="images/rosary_logo_text.png" class="college_logo_text" alt="">
+                </div>
+
+                <div class="address">
+                    <img src="images/location.png" class="location" alt="">
+                    <p>Address: 7X48+637, Butica, Navelim, New Zariwaddo, Navelim, Goa 403707</p>
+                </div>
+
+
             </div>
             <div class="socials">
-                <img src="images/instagram.webp" alt="">
-                <img src="images/facebook.webp" alt="">
-                <img src="images/twitter.png" alt="">
+                <h1>Our Socials</h1>
+
+                <div class="socials-icon">
+
+                    <a href="">
+                        <img src="images/instagram.webp" alt="">
+                    </a>
+                    <a href="">
+
+                        <img src="images/facebook.webp" alt="">
+                    </a>
+                    <a href="">
+                        <img src="images/twitter.png" alt="">
+                    </a>
+
+                </div>
+                <h1>Contact Us</h1>
+                <div class="contacts">
+
+
+
+
+                    <div class="group">
+                        <div class="group-icon"><img src="images/phone.png" alt=""></div>
+                        <div class="group-contact">+91 0832-2701564</div>
+                    </div>
+                    <div class="group">
+                        <div class="group-icon"><img src="images/email.png" alt=""></div>
+                        <div class="group-contact" style="font-size: 10px;">principal@rosarycollege.org</div>
+                    </div>
+
+                </div>
+
             </div>
             <div class="event-details">
-                <img src="images/logo.png" class="logo-footer" alt="">
-                <h2>Noesis 2022<br>XII Edition</h2>
+                <div>
+                    <img src="images/logo.png" class="logo-footer" alt="">
+                    <h2>Noesis 2022<br>XII Edition</h2>
+                </div>
+
+                <p>Department Of Computer Applications</p>
             </div>
         </div>
         <div class="copyright">
