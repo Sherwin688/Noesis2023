@@ -475,6 +475,13 @@ body {
 }
 
 @media (max-width: 600px) {
+    .event-section {
+        width: 100%!important;
+        padding: 10px 0!important;
+    }
+    h5 {
+        font-size: 23px!important;
+    }
     .card {
         min-height: 17rem;
         flex-direction: column;
@@ -801,7 +808,7 @@ body {
 }
 
 .event-type h5 {
-    font-size: 30px;
+    font-size: 23px;
     margin: 10px 0;
 }
 
