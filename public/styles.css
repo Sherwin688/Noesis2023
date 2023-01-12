@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 :root {
-    --blue: #02a9f7;
+    --blue: #56ff8e;
+    /* --blue-bg: #02577a; */
+    --blue-bg: #027a42;
+    /* --blue: #02a9f7; */
 }
 
 .lightup {
@@ -58,7 +61,7 @@ body {
 }
 
 .hero {
-    background-image: radial-gradient(#02577a, black);
+    background-image: radial-gradient(var(--blue-bg), black);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -68,7 +71,8 @@ body {
 }
 
 .letters {
-    color: #02577a;
+    /* color: #02577a; */
+    color: var(--blue-bg);
     font-size: 200px;
     font-weight: 600;
     text-shadow: 4px 4px 5px black;
@@ -271,13 +275,24 @@ body {
     left: 0;
     width: 300px;
     height: 300px;
-    background: rgba(2, 169, 247, 0.2);
+    background: rgba(20, 202, 3, 0.292);
     transform: translateZ(-380px);
     filter: blur(20px);
-    box-shadow: 0 0 120px rgba(2, 169, 247, 0.2), 0 0 200px rgba(2, 169, 247, 0.4), 0 0 300px rgba(2, 169, 247, 0.6), 0 0 400px rgba(2, 169, 247, 0.8), 0 0 500px rgba(2, 169, 247, 1);
+    /* box-shadow: 0 0 120px rgba(2, 169, 247, 0.2), 0 0 200px rgba(2, 169, 247, 0.4), 0 0 300px rgba(2, 169, 247, 0.6), 0 0 400px rgba(2, 169, 247, 0.8), 0 0 500px rgba(2, 169, 247, 1); */
+    box-shadow: 0 0 120px rgba(2, 247, 35, 0.2), 0 0 200px rgba(22, 247, 2, 0.4), 0 0 300px rgba(2, 247, 141, 0.63), 0 0 400px rgba(2, 247, 161, 0.543), 0 0 500px rgba(2, 247, 153, 0.744);
+}
+
+.logo {
+    position: relative;
+    top: -25px;
 }
 
 @media only screen and (max-width: 1400px) {
+    .left {
+        width: 130%;
+        margin: 0;
+        padding: 0;
+    }
     .day-container:nth-child(2) {
         flex-direction: column-reverse!important;
     }
@@ -794,6 +809,11 @@ body {
 .card-desc {
     display: block;
     font-size: 12px;
+}
+
+.ename {
+    line-height: 12px;
+    margin: 10px 0;
 }
 
 .event-section {
