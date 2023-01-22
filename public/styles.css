@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@font-face {
+    font-family: "naacfont";
+    src: url(Canterbury.ttf);
+}
+
 :root {
     --blue: #56ff8e;
     /* --blue-bg: #02577a; */
@@ -22,6 +27,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.naac {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.naac h1 {
+    font-family: "naacfont";
+    font-size: 70px;
+}
+
+.img_logo h1 p {
+    width: 100%;
+}
+
+.img_logo h1 {
+    font-size: 20px;
+    font-family: "naacfont";
+}
+
 #navbar {
     position: fixed;
     width: 40%;
@@ -31,6 +59,11 @@ html {
     transition: top 0.5s;
     transform: translateX(-50%);
     z-index: 999;
+}
+
+.event-type ul {
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 .navbar {
@@ -61,6 +94,7 @@ body {
 }
 
 .hero {
+    margin-top: 20px;
     background-image: radial-gradient(var(--blue-bg), black);
     height: 100vh;
     display: flex;
@@ -100,6 +134,17 @@ body {
 
 .a {
     animation: textlightup 100ms forwards;
+}
+
+.naac {
+    opacity: 0;
+    animation: fadein 3000ms forwards 5s;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes textlightup {
@@ -211,7 +256,7 @@ body {
 }
 
 .logo {
-    width: 120%;
+    width: 100%;
     height: 140%;
 }
 
@@ -287,9 +332,41 @@ body {
     top: -25px;
 }
 
+.coords {
+    min-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px!important;
+    margin-bottom: 0px!important;
+}
+
 @media only screen and (max-width: 1400px) {
+    .coords {
+        min-width: 100%;
+    }
+    .img_logo h1 {
+        line-height: 26px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .footer {
+        padding: 10px 0!important;
+    }
+    .naac {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        color: #fff;
+        text-align: center;
+    }
+    .naac h1 {
+        font-family: "naacfont";
+        font-size: 40px;
+        padding-bottom: 0;
+    }
     .left {
-        width: 130%;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -402,7 +479,7 @@ body {
         width: 100%;
     }
     .navbar ul li {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -850,4 +927,68 @@ body {
 
 .event-type p {
     font-size: 20px;
+}
+
+.category {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    border-left: 7px solid #ff9100;
+    /* border-left: 7px solid #e74a25; */
+}
+
+.category h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.register-link {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-link a {
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+.coordinator-contact h5 {
+    display: inline-block;
+}
+
+.coordinator-contact {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.coordinator-contact img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.coordinator-contacts-container {
+    display: flex;
+}
+
+.coordinator-contacts-container a {
+    text-decoration: none;
+    height: auto;
+    display: inline-block;
 }

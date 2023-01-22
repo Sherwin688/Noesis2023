@@ -12,15 +12,21 @@
 
 <body>
     <nav id="navbar">
-        <div class="navbar">
+        <div class="navbar" style="max-height: min-content;">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#schedule">Schedule</a></li>
+                <li><a target="_blank" href="https://forms.gle/dw6fuNxCJpfCBkZK6">Register</a></li>
+
 
             </ul>
         </div>
     </nav>
+    <div class="naac">
+        <h1 style="text-align: center;">Rosary College</h1>
+        <p>Re-accredited by NAAC with grade 'A'(CGPA Score of 3.21)</p>
+    </div>
     <div class="hero" id="hero">
         <div class="noesis">
             <span class="letters a">N</span>
@@ -35,8 +41,7 @@
                 <div class="cube" id="cube" onclick="react()">
                     <div id="spancontainer">
                         <div class="top">
-                            <!-- <img src="logo.png" alt="" class="logo"> -->
-                            <img src="images/tex1.webp" alt="" style="width: 100%; height: 100%;transform: rotate(90deg);">
+                            <img src="images/tex1.webp" alt="cpu chip texture" style="width: 100%; height: 100%;transform: rotate(90deg);">
                         </div>
                         <span style="--i:0;">                                    
                     <h2 class="letters2">20</h2>             
@@ -56,11 +61,11 @@
     <div class="section" style="display: flex;justify-content: space-between;align-items: center;">
         <div class="main-section">
             <div class="left">
-                <img src="images/tlogo.png" class="logo" alt="">
+                <img src="images/tlogozoom.png" class="logo" alt="Noesis Rosary College Logo">
             </div>
             <div class="right">
                 <h1><span class="lightup">Noesis 2023</span> <br>Department Of Computer Applications</h1>
-                <p>The 12th Edition of Noesis, the Annual National Level Technology Festival organized by the Department of Computer Applications of Rosary College, Navelim. A 2 day event that will be held on the 27th and 28th Of January 2023.</p>
+                <p>The Annual National Level Technology Festival, Noesis Edition XII, organized by the Department of Computer Applications of Rosary College, Navelim. A 2 day event that will be held on the 27th and 28th Of January 2023.</p>
 
                 <div class="btn-container">
                     <a href="#events" class="view-btn">View Events</a>
@@ -81,7 +86,7 @@
                         <span class="card-desc">Show your Web Development Skills in Designing and Debugging</span>
                     </div>
                     <div class="card-img">
-                        <img class="classimg" src="images/webweavers.png" alt="">
+                        <img class="classimg" src="images/webweavers.png" alt="web weavers illustration">
                     </div>
                 </div>
             </a>
@@ -94,7 +99,7 @@
 
                     </div>
                     <div class="card-img">
-                        <img class="classimg" src="images/codecrunchers.png" alt="">
+                        <img class="classimg" src="images/codecrunchers.png" alt="code crunchers illustration">
                     </div>
                 </div>
             </a>
@@ -108,7 +113,7 @@
 
                     </div>
                     <div class="card-img">
-                        <img class="classimg" src="images/mediamasters.png" alt="">
+                        <img class="classimg" src="images/mediamasters.png" alt="media masters illustration">
                     </div>
                 </div>
             </a>
@@ -121,11 +126,27 @@
 
                     </div>
                     <div class="card-img">
-                        <img class="classimg" src="images/brainybeings.jpg" alt="">
+                        <img class="classimg" src="images/brainybeings.jpg" alt="brainy beings illustration">
                     </div>
                 </div>
             </a>
 
+
+        </div>
+        <div class="register-link"> <a target="_blank" href="https://forms.gle/dw6fuNxCJpfCBkZK6">Register Now</a></div>
+        <div class="event-type" style="margin: 20px 0;">
+            <h1>General Rules</h1>
+            <ol>
+                <li> A team should consist of eight participants. Every participant should carry proof of college identification. </li>
+                <li> A College can send a maximum of two teams.</li>
+                <li> Participants can be students of BE, BCA, BSc (Computer Science /IT), B.Voc</li>
+                <li> Noesis 2023 events are grouped into four categories. A participant can enroll in only one of those categories. Only two participants can enroll in a category.</li>
+                <li> Once selected the participant will not be allowed to change the chosen category. The two students enrolled in a category have to participate in all the events of that category only.</li>
+                <li> The registration fee per team is Rs. 1000/-</li>
+                <li> Every team should get a letter of authorization from the Principal of their respective Institution, in order to attend the event.</li>
+                <li> All teams should strictly adhere to the scheduled time.</li>
+                <li> The decision of the organizers will be final and binding.</li>
+            </ol>
         </div>
     </div>
     <div style="height: 25px;" id="schedule"></div>
@@ -138,7 +159,7 @@
         </div>
         <div class="table-container" style="margin-bottom: 140px;">
             <div class="day-container">
-                <img src="images/day1.png" class="days" alt="">
+                <img src="images/day1.png" class="days" alt="calender day 1">
                 <div class="schedule-container">
                     <div class="programme" style="background-color: #ef4136;color: #fff;">
                         <div class="time"><b>Time</b></div>
@@ -160,9 +181,9 @@
                         <div class="event-name">
 
                             <div class="ename">Web Weavers : .html</div>
-                            <div class="ename">Code Crunchers : int main () </div>
+                            <div class="ename">Code Crunchers : Spritely </div>
                             <div class="ename">Media Masters : Sync </div>
-                            <div class="ename">Brainy Beings : .CyberWhiz</div>
+                            <div class="ename">Brainy Beings : CyberWhiz</div>
                         </div>
 
 
@@ -178,7 +199,7 @@
                         <div class="time">02.00 PM - 04.00 PM</div>
                         <div class="event-name">
                             <div class="ename">Web Weavers : &lt;JS&gt; Validator </div>
-                            <div class="ename">Code Crunchers : Syntax n Semantics </div>
+                            <div class="ename">Code Crunchers : BugSquashers </div>
                             <div class="ename">Media Masters : Morphos </div>
                             <div class="ename">Brainy Beings : Feel it Speak it</div>
                         </div>
@@ -202,7 +223,7 @@
         </div>
         <div class="table-container">
             <div class="day-container">
-                <img src="images/day2.png" class="days" alt="">
+                <img src="images/day2.png" class="days" alt="calender day 2">
 
                 <div class="schedule-container">
 
@@ -217,7 +238,7 @@
                         <div class="event-name">
 
                             <div class="ename">Web Weavers : WebDev Tools </div>
-                            <div class="ename">Code Crunchers : Predicate </div>
+                            <div class="ename">Code Crunchers : CodeHunt </div>
                             <div class="ename">Media Masters : CreaTIvITy </div>
                             <div class="ename">Brainy Beings : Inn-Expo</div>
                         </div>
@@ -252,68 +273,123 @@
 
 
     </div>
-    <div class="footer-container">
-        <div class="footer">
-            <div class="college-details">
-                <div class="img_logo">
-                    <img src="images/college_logo.png" class="college_logo" alt=""><img src="images/rosary_logo_text.png" class="college_logo_text" alt="">
-                </div>
+    <div class="section" style="min-height:fit-content;margin: 10px auto;">
+        <div class="heading ">
+            <h1 style="margin: 10px 0!important;width: 100%; ">Noesis Coordinators</h1>
+        </div>
+    </div>
+    <div class="section " style="min-height:fit-content;display: flex;flex-direction: column;align-items: center; margin-top: 10px;box-shadow: none; ">
 
-                <div class="address">
-                    <a href="https://goo.gl/maps/E5c6rb6wGXzVUrb7A">
-                        <img src="images/location.png" class="location" alt="">
+        <div class="event-type coords" style="display: flex;align-items: center;flex-direction:column;margin: 0;margin-bottom: 10px; ">
+            <h3>Student Coordinator</h3>
+            <div class="coordinator-contact " style="width:100%;">
+                <h4>Ms. Eleanora D'Costa</h4>
+                <div class="coordinator-contacts-container ">
+                    <a href="https://wa.me/+918390402562" target="_blank " style="margin-left:50px; ">
+                        <img src="./images/whatsapp.png " alt=" ">
+                    </a>
+                    <a href="tel:8390402562 " target="_blank ">
+                        <img src="./images/phone2.png " alt=" ">
                     </a>
 
-                    <p>Address: Navelim, Goa 403707</p>
                 </div>
+            </div>
+        </div>
+        <div class="event-type coords" style="display: flex;align-items: center;flex-direction:column;margin: 0; ">
+            <h3>Faculty Coordinators</h3>
+            <div class="coordinator-contact" style="width:100%;">
+                <h4>Asst. Prof. Mildred Lemos</h4>
+                <div class="coordinator-contacts-container">
+                    <a href="https://wa.me/+919823330965" target="_blank " style="margin-left:50px; ">
+                        <img src="./images/whatsapp.png " alt=" ">
+                    </a>
+                    <a href="tel:9823330965 " target="_blank ">
+                        <img src="./images/phone2.png " alt=" ">
+                    </a>
+
+                </div>
+            </div>
+            <div class="coordinator-contact " style="width:100%;">
+                <h4>Asst. Prof. Leonard Jones</h4>
+                <div class="coordinator-contacts-container ">
+                    <a href="https://wa.me/+917588444569" target="_blank " style="margin-left:50px;">
+                        <img src="./images/whatsapp.png " alt=" ">
+                    </a>
+                    <a href="tel:7588444569 " target="_blank ">
+                        <img src="./images/phone2.png " alt=" ">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container ">
+        <div class="footer ">
+            <div class="college-details ">
+                <div class="img_logo ">
+                    <img src="images/college_logo.png " class="college_logo " alt="rosary college logo ">
+                    <h1 style="text-align: center; ">Rosary College of Commerece & Arts</h1>
+                    <p style="text-align: center; ">Re-accredited by NAAC with grade 'A'(CGPA Score of 3.21)</p>
+                </div>
+
+                <a href="https://goo.gl/maps/E5c6rb6wGXzVUrb7A" style="text-decoration: none;">
+                    <div class="address ">
+                        <img src="images/location.png " class="location " alt="location icon ">
+
+                        <p>Address: Navelim, Goa 403707</p>
+                    </div>
+                </a>
 
 
             </div>
-            <div class="socials">
+            <div class="socials ">
                 <h1>Our Socials</h1>
 
-                <div class="socials-icon">
+                <div class="socials-icon ">
 
-                    <a href="https://www.instagram.com/rosarycollege1990/?hl=en">
-                        <img src="images/instagram.webp" alt="">
+                    <a href="https://www.instagram.com/rosarycollege1990/?hl=en ">
+                        <img src="images/instagram.webp " alt="instagram logo ">
                     </a>
-                    <a href="https://www.facebook.com/rosarycollegenavelim/">
+                    <a href="https://www.facebook.com/rosarycollegenavelim/ ">
 
-                        <img src="images/facebook.webp" alt="">
+                        <img src="images/facebook.webp " alt="facebook logo ">
                     </a>
-                    <a href="https://twitter.com/collegerosary?lang=en">
-                        <img src="images/twitter.png" alt="">
+                    <a href="https://twitter.com/collegerosary?lang=en ">
+                        <img src="images/twitter.png " alt="twitter logo ">
                     </a>
 
                 </div>
                 <h1>Contact Us</h1>
-                <div class="contacts">
+                <div class="contacts ">
 
 
 
-
-                    <div class="group">
-                        <div class="group-icon"><img src="images/phone.png" alt=""></div>
-                        <div class="group-contact">+91 0832-2701564</div>
-                    </div>
-                    <div class="group">
-                        <div class="group-icon"><img src="images/email.png" alt=""></div>
-                        <div class="group-contact" style="font-size: 10px;">principal@rosarycollege.org</div>
-                    </div>
+                    <a href="tel:0832-2701564" style="text-decoration: none;">
+                        <div class="group">
+                            <div class="group-icon "><img src="images/phone.png " alt="phone icon "></div>
+                            <div class="group-contact ">+91 0832-2701564</div>
+                        </div>
+                    </a>
+                    <a href="mailto:principal@rosarycollege.org" style="text-decoration: none;">
+                        <div class="group ">
+                            <div class="group-icon "><img src="images/email.png " alt="email icon "></div>
+                            <div class="group-contact " style="font-size: 10px; ">principal@rosarycollege.org</div>
+                        </div>
+                    </a>
 
                 </div>
 
             </div>
-            <div class="event-details">
+            <div class="event-details ">
                 <div>
-                    <img src="images/hlogo.png" style="width: 150px; height: auto;" class="logo-footer" alt="">
+                    <img src="images/hlogo.png " style="width: 150px; height: auto; " class="logo-footer " alt="rosary college noesis logo ">
                     <h2>Noesis 2023<br>XII Edition</h2>
                 </div>
 
                 <p>Department of Computer Applications</p>
             </div>
         </div>
-        <div class="copyright">
+        <div class="copyright ">
             <h3>© 2023 Rosary College of Commerce and Arts</h3>
         </div>
     </div>
@@ -336,9 +412,9 @@
         function scrollFunction() {
 
             if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-                document.getElementById("navbar").style.top = "0";
+                document.getElementById("navbar").style.top = "0 ";
             } else {
-                document.getElementById("navbar").style.top = "-100px";
+                document.getElementById("navbar").style.top = "-100px ";
             }
         }
     </script>
